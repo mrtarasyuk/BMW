@@ -1,0 +1,644 @@
+body{
+     font-family: 'Rammetto One', cursive;
+    font-size: 16px;
+    background: black;
+}
+h1{
+   
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 60px;
+    display: block; 
+    letter-spacing: -3px;
+
+}
+h1.lg{
+    
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 114px;
+    margin left: 30px;
+}
+h1.lh{
+    
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 114px;
+    margin left: 30px;
+
+}
+h6{
+    color: white;
+    font-weight:700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+
+/* Buttons */
+.btn-price{
+   display: inline-block;
+    vertical-align: middle;
+    border: 3px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 35px;
+    font-family: 'Rammetto One' sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 55px;
+    margin-left: 0 auto;
+    color:  #0ba0f4;
+}
+.btn-price:hover{
+background: white;
+transition: 0.4s;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #0ba0f4;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 35px;
+    font-family: 'Rammetto One' sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 45px;
+    margin-left: 130px;
+    color:  #0ba0f4;}
+.btnm{
+      display: inline-block;
+    vertical-align: middle;
+    border: 3px solid #0ba0f4;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 35px;
+    font-family: 'Rammetto One' sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 45px;
+    margin-left: 0px;
+    color:  #0ba0f4;
+    margin-top: 70px;
+}
+.btnm:hover{
+      background: #0ba0f4;
+    color: white;
+}
+
+.btn:hover{
+    background: #0ba0f4;
+    color: white;
+}
+/* Form */
+.form-field{
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.form-field-icon{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #0ba0f4;
+    font-size: 20px;
+    width: 20px;
+
+
+}
+
+.form-control{
+    display: block;
+    padding: 0 25px;
+    height: 45px;
+    width: 420px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    transition: 0.3s;
+}
+.form-control:focus{
+    border: 3px solid #0ba0f4;
+}
+textarea.form-control{
+    min-height: 125px;
+    resize: none;
+    padding-top: 10px;
+}
+/* wrapp */
+.wrapper{
+    max-width:1250px;
+    margin: 0 auto;
+    padding: 0 40px;
+
+
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    color: #0ba0f4;
+    height: 150px;
+    border: 2px solid #0ba0f4;
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 35px;
+    font-family: 'Rammetto One';
+    text-decoration: none;
+}
+.logo a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu_item{
+    margin-left: 45px;
+}
+.menu_link1:hover{
+    background-color: rgba(0,0,0,0.9);
+    transition: 0.4s;
+}
+.menu_link1{
+    font-size: 18px;
+    font-weight: 600;
+    background-color:  #0ba0f4;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 20px;
+    text-decoration: none;}
+.menu_link{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 20px;
+    text-decoration: none;
+}
+.menu_link:hover{
+    background: rgba(255,255,255,0.5);
+    border: 2px solid white;
+    color: black ;
+    transition: 0.4s;
+
+
+}
+.banner{
+    text-align: left;
+    padding-top: 250px;
+    padding-bottom: 280px;
+    height: 170px;
+    background: url(../images/bmw1.jpg); 
+    no-repeat;
+    center;
+    top;
+
+}
+
+.about{
+    padding: 20px 0;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 90%;
+    margin: 0 auto 40px;
+
+}
+.heading h2{
+    color: #0fa1f6;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.heading h2:after{
+    content: '';
+    display: block;
+    width: 4px;
+    height: 35px;
+    background-color: #DAA520;
+    position: relative;
+    left: 100%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: 19px;
+}
+.heading p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    flex: 1;
+}
+.about-wrap{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: : 2px solid black;
+    padding-bottom: 120px;
+
+}
+.about-wrap-img{
+    position: relative;
+    height: 40%;
+}
+.about-wrap-content{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 60px;
+    flex: 1;
+}
+.about-wrap-content_text h6{
+    margin-bottom: 17px;
+    color: #0fa1f6;
+    
+}
+.about-wrap-content_icon{
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    font-size: 60px;
+    margin-right: 29px;
+
+    color: #0fa1f6;
+
+}
+.about-wrap-content_text p{
+    color: #fff;
+
+    font-weight: 400;
+    font-size:16px;
+}
+
+}
+.about-wrap-content_text.about-text{
+    margin-bottom:  17px;
+    line-height: 10px;
+    color: black;
+    font-size: 10px;
+    font-weight: 300;
+
+}
+.icon-earth:hover{
+    color: white;
+}
+.icon-key2:hover{
+    color: white;
+}
+
+/* box skills */
+
+.box-skills{
+    display: flex;
+   position: relative;
+   margin-top: -30px;
+    flex: 1;
+}
+.box-skills_item{
+    flex: 1;
+
+
+}
+.box-bars{
+    flex: none;
+}
+.box-skills_item--img img{
+display: inline-block;
+max-width: 100%;
+}
+.box-skills_item--img{
+    padding-left: 50px;
+    text-align: right;
+
+}
+.box-skills_item--content{
+    padding-left: 40px;
+}
+/* Bars */
+.bars_line{
+background: black;
+width: 10px;
+}
+.bars_line>div{
+    background: black;
+    width: 10px;
+}
+.bars-title{
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    color: 
+}
+.box-bars{
+    padding-left: 40px;
+}
+/* Qwota */
+.box-quote{
+    padding: 250px 0;
+   background-image: url(../images/bmw-wallpapers-hd-26.jpg);
+    background-size: cover;
+    text-align:center;
+
+}
+.quote_text{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    position: relative;
+}
+.quote_text:after., .quote_text:before{
+    content: '"';
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.quote_author{
+    color: #fff;
+    font-size: 35px;
+}
+/* team */
+.box-team{
+    padding:30px 0 80px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-list-item{
+    width: 269px;
+    border-top: 4px solid transparent;
+    padding: 25px 15px 30px;
+    text-align: center;
+
+}
+.team-list-img{
+    background-color:  #DAA520;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.team-list-item:hover{
+background: #fff;
+border-color: #DAA520;
+}
+.team-list-img:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 202px;
+    width: 202px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.team-list-img >img{
+    height: 100%;
+    font-weight: 100%;
+    border-radius: 50%;
+    display:block;
+}
+.team-list-item h6{
+    color:  #DAA520;
+    margin-top: -3px;
+}
+.team-list-job{
+color: black;
+font-family: 'Arial';
+font-size: 15px;
+font-weight: 400;
+
+}
+.team-list-item p{
+    margin-top: -20px;
+}
+.social-link{
+    color: black;
+    text-decoration: black;
+    font-size: 40px;
+ }
+
+ .icon-facebook2:hover{
+color: #3b5998;
+ }
+ .icon-telegram:hover{
+color: #0088cc;
+ }
+.icon-vk:hover{
+color: #45668e;
+}
+.icon-google-plus2:hover{
+color: #dc4e41;}
+.facts-list{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-list-item:hover .facts-list-icon{
+    border-color: #fff;
+
+}
+.facts-list-item:hover .facts-list-icon{
+    border-color: #fff;}
+.facts-list-item:hover .facts-list-icon [class *='icon']:before{
+color:  #0fa1f6 ;
+transition: 0.5s;}
+
+.facts-list-icon{
+    width: 130px;
+    height: 130px;
+    border:2px solid #DAA520;
+    border-radius: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+        font-size: 30px;
+        color: black;
+        color: #FFF;
+        transition: 0.5s;
+}
+.facts-list h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.facts-list h5 span{
+font-size: 35px;
+display: block;
+text-align: center;
+}
+.speak{
+    
+}
+.pricing{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-image: url(../images/wallpaper.wiki-BMW-Logo-HD-Pictures-PIC-WPD006427.jpg);
+    
+}
+.pricing-item{
+    border:2px solid white;
+}
+.pricing-item.pricing-item-active{
+
+}
+
+
+.pricing-header{
+padding: 25px 28px;
+}
+.pricing-header-title{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.pricing-header-title span:before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #DAA520;
+    margin:8px auto;
+
+
+}
+.pricing-list{
+
+    list-style: none;
+    justify-content: flex-start;
+}
+.pricing-list li{
+    color: #fff;
+    line-height: 18px;
+    padding: 15px;
+    border-top: 1px solid #fff;
+}
+.pricing-list li:last-child{
+    border-bottom: 1px solid #fff;
+}
+.pricing-footer{
+    padding: 20px 24px;
+}
+.pricing-footer a{
+    font-size: 25px;
+}
+.pricing-header-title span{
+    color:  #0fa1f6;
+}
+.section-contact{
+    padding: 30px;
+}
+/* Contact */
+.contact-wrap-left{
+    width: 50%;
+}
+.contact-wrap-right{
+    width: 50%;
+    margin-right: 25px;
+}
+.contact-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-wrap h6{
+   
+    padding-left: 0px;
+}
+.contact-wrap p{
+    margin-bottom: -10px;
+}
+.contact-wrap-right{
+
+    padding-left: 80px;
+}
+.contact-list{
+    list-style: none;
+}
+.contact-list-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 18px;
+    padding-left: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.32px;
+
+}
+
+
+.contact-list-item a{
+    text-decoration: none;
+    color: white;
+}
+.contact-list-item a:hover{
+    text-decoration: none;
+    color:  #0fa1f6;
+}
+.contact-list-icon{
+    width: 34px;
+    height: 34px;
+    border: 1px solid  #0fa1f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.contact-wrap-right h6{
+    padding-left: 90px;
+}
